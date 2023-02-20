@@ -27,4 +27,8 @@ class Author
   def topic_areas
     magazines.map { |magazine| magazine.category }.uniq
   end
+  
+  def to_s
+    @name
+  end
 end

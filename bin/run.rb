@@ -22,19 +22,28 @@ article4 = Article.new(author2, magazine3, "New Discoveries in Quantum Physics")
 article5 = Article.new(author1, magazine1, "Summer Fashion Essentials")
 
 # test methods - use puts statement to print out the results of the methods
-puts Author.all 
-puts Magazine.all
-puts Article.all 
 
-puts author1.articles
-puts author1.magazines 
-puts author1.topic_areas
+puts author1.magazines
 
-puts magazine2.article_titles 
-puts magazine2.contributing_authors
+puts magazine1.name
 
-puts Magazine.find_by_name("Vogue") 
+puts Article.all
 
-author1.add_article(magazine1, "The Value of Persistence")
-puts author1.articles
-puts magazine1.contributing_authors
+puts article1.author
+
+puts article5.magazine
+
+puts article4.magazine.topic_area
+
+puts article2.magazine.contributing_authors
+
+
+# Change the author of an article
+new_author = Author.new("Fatuma Abdullrahman")
+article5.author = new_author
+puts article5.author
+
+# Find an article by its title
+article = Article.find_by_title("Fashion Trends for Spring")
+puts article
+
