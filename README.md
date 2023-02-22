@@ -49,8 +49,12 @@ The following methods are available in the application:
 To test the functionality of the application, you can run `ruby bin/run.rb` and create instances of the classes and call their methods to test their functionality.
 (I have already created some instances and invoked them)
 
+### Setup
+
+- Clone the repository to your local machine
+- Install the required dependencies by running `bundle install` within the code challenge directory
+- Run `ruby bin/run.rb` to test the functionality of the classes
+
 ## Conclusion
 
 This code challenge provided an opportunity to practice building models and establishing associations between them. The challenge covered a variety of concepts, including classes and instances, class and instance methods, variable scope, arrays, enumerables, many-to-many relationships, object relationship methods, and aggregate methods. Through this exercise, I gained experience in writing and testing code for Ruby models and working with the Ruby on Rails framework. Additionally, I learned the importance of creating clear and concise documentation to help others understand and use the code I write. Overall, this challenge was a valuable learning experience for developing my skills in Ruby programming.
-
-
